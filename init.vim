@@ -1,11 +1,14 @@
 set nocompatible "disable vi compatibility
 set number "display line numbers
+set laststatus=2 "always display status line
+set showtabline=2 "always display tab line
 set showmatch "highlight matching braces
 set comments=sl:/*,mb:\ *,elx:\ */
 
-" background colorscheme
+" colorscheme
+colorscheme vacme
 "set bg=light
-set bg=dark
+"set bg=dark
 
 " UTF-8 encoding
 set enc=utf-8
